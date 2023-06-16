@@ -1,7 +1,6 @@
 /* Your Styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Sahitya:wght@700&display=swap');
 /* Style Tile with CSS var */
 
 :root{
@@ -52,7 +51,13 @@ dialog {
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
 }
 h2{
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'Sahitya', serif;
+  color: #ECECEC;
+  font-size: 225%;
+  text-align: center;
+}
+figcaption{
+  font-family: 'Kiwi Maru', serif;
   color: #ECECEC;
 }
 
