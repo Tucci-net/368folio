@@ -1,3 +1,57 @@
-body {
-    background: rgb(89, 255, 0);
+/* Your Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;600&display=swap');
+
+/* Style Tile with CSS var */
+
+:root{
+  --color1: #848484;
+  --color2: #891024;
+  --color3: #FFFFFF;
 }
+
+/* diagnostic styling. remove when done */
+/* * {
+  outline: 1px dotted gray;
+} */
+
+/* Layout with css grid */
+body {
+  display: grid;
+  background-color: var(--color1);
+}
+
+main {
+  /* css grid */
+  place-self: center;
+
+  /* flexbox */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+figure {
+background-color:var(--color2);
+padding: 30px;
+border-radius: 10px;
+
+margin: 10px;
+
+width: 300px;
+}
+
+/* Backdrop for modal overlay */
+::backdrop {
+  background: rgba(137, 16, 36, 0.9);
+}
+
+/* Animation */
+dialog {
+  border: none;
+  animation: rollIn 1s;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+}
+h2{
+  font-family: 'Fredoka', sans-serif;
+}
+
