@@ -5,9 +5,9 @@
 /* Style Tile with CSS var */
 
 :root{
-  --color1: #848484;
-  --color2: #891024;
-  --color3: #FFFFFF;
+  --color1: #453A3E;
+  --color2: #0B2351;
+  --color3: #861001;
 }
 
 /* diagnostic styling. remove when done */
@@ -42,7 +42,7 @@ width: 300px;
 
 /* Backdrop for modal overlay */
 ::backdrop {
-  background: rgba(137, 16, 36, 0.9);
+  background: rgb(26, 21, 21);
 }
 
 /* Animation */
@@ -53,5 +53,6 @@ dialog {
 }
 h2{
   font-family: 'Fredoka', sans-serif;
+  color: #ECECEC;
 }
 
